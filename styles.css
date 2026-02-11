@@ -112,10 +112,15 @@ ul {
 }
 
 .logo-img {
-    height: 60px;
-    /* Ajusta según el tamaño de tu logo */
+    height: 110px;
+    /* Aumentado de 60px para mayor visibilidad */
     width: auto;
     filter: drop-shadow(0 0 5px rgba(0, 242, 255, 0.5));
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
 }
 
 /*.logo-text { ... eliminated ... */

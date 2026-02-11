@@ -131,8 +131,25 @@
                         <label for="name">Nombre Completo</label>
                         <input type="text" id="name" name="name" placeholder="Tu nombre" required>
                     </div>
+
+                    <div class="input-group double-group" style="display: flex; gap: 1rem;">
+                        <div style="flex: 1;">
+                            <label for="doc_type">Tipo Doc.</label>
+                            <select id="doc_type" name="doc_type" required>
+                                <option value="CC">Cédula (CC)</option>
+                                <option value="CE">Cédula Ext. (CE)</option>
+                                <option value="TI">Tarjeta Identidad</option>
+                                <option value="PA">Pasaporte</option>
+                            </select>
+                        </div>
+                        <div style="flex: 1.5;">
+                            <label for="doc_number">Número</label>
+                            <input type="number" id="doc_number" name="doc_number" placeholder="12345678" required>
+                        </div>
+                    </div>
+
                     <div class="input-group">
-                        <label for="phone">WhatsApp (con código de país)</label>
+                        <label for="phone">WhatsApp</label>
                         <input type="tel" id="phone" name="phone" placeholder="+57 300 123 4567" required>
                     </div>
                     <div class="input-group">
