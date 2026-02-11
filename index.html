@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="RTR Seguros Salud Generales - Ricardo Tamayo. Medicina Prepagada, Seguros de Vehículos y Afiliación EPS.">
+    <title>RTR Seguros - Salud y Tranquilidad</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Iconos (FontAwesome CDN para iconos genéricos si es necesario, o SVG inline) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="RTR Seguros Logo" class="logo-img">
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#cotizar" class="btn-primary cta-header">Cotizar Ahora</a>
+            <div class="mobile-menu-icon" id="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Tu Salud y Tranquilidad en <span class="highlight">Manos Expertas</span></h1>
+                <p class="subtitle">Ricardo Tamayo</p>
+                <p class="role">Corredor en Planes de Salud y Seguros</p>
+                <div class="hero-buttons">
+                    <a href="#servicios" class="btn-primary">Ver Servicios</a>
+                    <a href="https://wa.me/573124609330" target="_blank" class="btn-secondary"><i
+                            class="fab fa-whatsapp"></i> Hablar con Ricardo</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="assets/images/foto.jpg" alt="Ricardo Tamayo" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <!-- Medicina Prepagada -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Medicina Prepagada</h3>
+                    <p>Acceso a la mejor atención médica con el respaldo de grandes aseguradoras.</p>
+                    <div class="partners">
+                        <span class="partner-badge">Medplus</span>
+                        <span class="partner-badge">Colmédica</span>
+                    </div>
+                </div>
+                <!-- Seguros de Vehículos -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-car"></i></div>
+                    <h3>Seguros de Vehículos</h3>
+                    <p>Protege tu patrimonio y viaja tranquilo con la mejor cobertura.</p>
+                    <div class="partners">
+                        <span class="partner-badge">Axa Colpatria</span>
+                    </div>
+                </div>
+                <!-- Afiliación EPS -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-notes-medical"></i></div>
+                    <h3>Afiliación EPS</h3>
+                    <p>Asesoría y gestión completa para tu afiliación al sistema de salud.</p>
+                    <div class="partners">
+                        <span class="partner-badge">Salud Total</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & GoHighLevel Section -->
+    <section id="cotizar" class="contact-form-section">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <h2>¡Cotiza tu Seguro Hoy!</h2>
+                    <p>Déjanos tus datos y te contactaremos en minutos.</p>
+                </div>
+                <!-- Aquí irá el Embed Code de GoHighLevel -->
+                <div id="ghl-form-placeholder" class="ghl-placeholder">
+                    <div class="ghl-mockup">
+                        <div class="input-group"><label>Nombre</label><input type="text" disabled
+                                placeholder="Tu nombre"></div>
+                        <div class="input-group"><label>Teléfono</label><input type="text" disabled
+                                placeholder="+57 ..."></div>
+                        <div class="input-group"><label>Email</label><input type="email" disabled
+                                placeholder="tucorreo@ejemplo.com"></div>
+                        <button disabled class="btn-submit-mock">Enviar Solicitud</button>
+                    </div>
+                    <p class="ghl-note"><small>Formulario a conectar con GoHighLevel</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>RTR Seguros</h3>
+                <p>Tu aliado en protección y bienestar.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contáctanos</h4>
+                <p><i class="fas fa-phone-alt"></i> +57 312 460 9330</p>
+                <p><i class="fas fa-envelope"></i> segurossaludgenerales@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RTR Seguros Salud Generales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/573124609330" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
